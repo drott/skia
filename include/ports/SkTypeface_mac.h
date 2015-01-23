@@ -25,5 +25,5 @@
  *  unref() when it is finished.
  */
 SK_API extern SkTypeface* SkCreateTypefaceFromCTFont(CTFontRef);
-
+SK_API extern CTFontRef SkTypeface_GetCTFontRef(const SkTypeface* face);
 #endif
